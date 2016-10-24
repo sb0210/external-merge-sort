@@ -1,0 +1,22 @@
+Execute run.sh
+
+produces time.txt containing time analysis
+Inside pflayer/
+
+input$x.txt x in (1..10) :readable input files random integers 1024000
+inp$x : paged file format for input to mytestpf
+output$x.txt : sorted ouput
+code :mytestpf.c
+generate_input.c :generates random integers in a paged file system
+
+make cleaninp clean
+make inp : gen input
+make mytestpf: main code
+
+Inside amlayer/
+input$x.txt.0 : indexed files
+
+make clean 
+make : generate executalbe
+./a.out input.txt
+

@@ -1,0 +1,30 @@
+Input #1
+
+B+ tree
+Time for insertion
+7688800.000000
+Time for scan
+185203.000000
+retrieved 1024004 records
+
+Merge:
+total time 4314304.000000 
+retrieved 1024004 records
+
+
+Input #2
+B+ 
+Time for insertion
+7189811.000000
+Time for scan
+188392.000000
+retrieved 1024004 records
+
+Merge:
+total time 4032111.000000 
+
+Input #3 sorted
+
+Merge:
+total time 1002920.000000 
+
